@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảng điểm Pascal</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+
+<h1>BẢNG ĐIỂM PASCAL CỦA BÙ NGO</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" class="stt">STT</th>
+      <th rowspan="2" class="sua">Họ và tên</th>
+      <th colspan="4" class="sua-1">Điểm 15 phút</th>
+      <th colspan="4" class="sua-1">Điểm kiểm tra 1 tiết</th>
+      <th rowspan="2" class="cuoiki">Cuối Kì</th>
+      <th rowspan="2" class="tb">Trung Bình</th>
+      <th rowspan="2" class="xeploai">Xếp loại</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-weight: bold;">1</td>
+      <td class="name" style="font-weight: bold;">Trịnh Mỹ Phượng</td>
+      <td>1</td> 
+      <td></td> 
+      <td></td> 
+      <td></td> 
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Bảng điểm + bên dưới -->
+<table class="diem-plus-table">
+  <tr>
+    <td class="diem-plus-label">Điểm +</td>
+    <td class="diem-plus-value">1</td>
+  </tr>
+</table>
+<!-- <div class="hinh">
+    <img src="./avt.jpg">
+</div> -->
+
+  <!-- Các lớp mây -->
+   <div class="nut">
+    <button id="playBtn">Bật nhạc</button>
+   </div>
+<div class="contact">
+  <p class="fancy-text">Thắc mắc về điểm số vui lòng liên hệ Trí Kun Depzaicutephomaique </p>
+<div class="fb-button">
+  <a href="https://www.facebook.com/trikundeptrai/?locale=vi_VN" target="_blank">Ở ĐÂY</a>
+</div>
+</div>
+
+   <div class="avt">
+    <img src="./avttt.png" style="width:15%">
+    <img src="./avttt.png" style="width:15%">
+    <img src="./avttt.png" style="width:15%">
+   </div>
+ <div class="conbo">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+  
+    <!-- Nhiều con bò bay -->
+    <div class="cow cow1">🐮✨</div>
+    <div class="cow cow2">🐮✨</div>
+    <div class="cow cow3">🐮✨</div>
+    <div class="cow cow4">🐮✨</div>
+    <div class="cow cow5">🐮✨</div>
+    <div class="cow cow6">🐮✨</div>
+    <div class="cow cow7">🐮✨</div>
+    <div class="cow cow8">🐮✨</div>
+ </div>
+
+<audio id="audio" src="./nang.mp3"></audio>
+
+
+<script>
+  const playBtn = document.getElementById('playBtn');
+  const audio = document.getElementById('audio');
+
+  playBtn.addEventListener('click', () => {
+    audio.play();
+  });
+</script>
+</body>
+</html>
