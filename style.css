@@ -294,11 +294,12 @@ p {
 }
 
 .fancy-text {
-  font-size: 30px;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
   background: linear-gradient(to right, #ff4e50, #f9d423);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
